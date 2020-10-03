@@ -4,7 +4,7 @@
   "description": "This is a node server for webapp.",
   "main": "index.js",
   "scripts": {
-    "watch": "nodemon ./index.js",
+    "watch": "node nodeScript/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Akash Pattnaik",
