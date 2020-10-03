@@ -1,1 +1,1 @@
-web: start index.html && cd nodeServer && node index.js
+web: index.html && cd nodeServer && node index.js
