@@ -1,0 +1,23 @@
+  
+{
+  "name": "ProX-WebApp",
+  "description": "Basic Socket.io usage...",
+  "website": "https://github.com/BLUE-DEVIL1134/ProX-WebApp",
+  "repository": "https://github.com/BLUE-DEVIL1134/ProX-WebApp",
+  "logo": "https://node-js-sample.herokuapp.com/node.svg",
+  "success_url": "/",
+  "keywords": [
+    "node",
+    "express",
+    "socket.io",
+    "realtime",
+    "websocket"
+  ],
+  "scripts": {
+  },
+  "addons": [
+  ],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs"
+  }
+}
