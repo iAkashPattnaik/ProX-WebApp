@@ -1,0 +1,179 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+@keyframes type_animation{
+    0% {
+        margin-top: 12px;
+        text-align: center;
+        width: 0ch;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    100% {
+        margin-top: 12px;
+        text-align: center;
+        width: 22ch;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+@keyframes type_animation_2{
+    0% {
+        margin-top: 12px;
+        text-align: center;
+        width: 0ch;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    100% {
+        margin-top: 12px;
+        text-align: center;
+        width: 37ch;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+
+@keyframes source_animation{
+    0% {
+        text-align: center;
+        width: 0ch;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    100% {
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 35ch;
+    }
+}
+
+
+#source{
+    clear: both;
+    float: center;
+    display: block;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    animation: source_animation 20s;
+}
+
+
+h1{
+    cursor: wait;
+    color: crimson;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: type_animation 3s steps(22);
+}
+
+h2{
+    cursor: no-drop;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: type_animation_2 7s steps(37);
+}
+
+.container{
+    max-width: 1000px;
+    border: 5px solid rgb(0, 29, 255);
+    border-radius: 20px;
+    animation-name: eg;
+    animation-duration: 10s;
+    margin: auto;
+    height: 61vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    background-color: darkturquoise;
+}
+
+body{
+    background-image: linear-gradient(rgb(88, 255, 250),rgb(179, 255, 0));
+}
+
+.message{
+    background-color: greenyellow;
+    padding: 10px;
+    margin: 17px 12px;
+    width: 24%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.left {
+    float: left;
+    clear: both;
+    background-color: lime;
+}
+
+.right{
+    float: right;
+    clear: both;
+    background-color: lightblue;
+}
+
+.middle{
+    cursor: crosshair;
+    border: 3px solid rgb(245, 0, 0);
+    height: 21px;
+    width: 270px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    clear: both;
+    background-color: chocolate;
+    color: whitesmoke;
+    border-radius: 0px;
+}
+
+#send-container{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 985px;
+}
+
+#messageInp {
+    width: 93%;
+    border: 5px solid black;
+    border-radius: 6px;
+    height: 34px;
+    overflow-y: scroll;
+    background-color: teal;
+    color: white;
+}
+
+.btn{
+    cursor: crosshair;
+    border: 2px solid black;
+    border-radius: 6px;
+    border: 3px solid black;
+    height: 34px;
+    color: white;
+    background-color: darkblue;
+}
+
