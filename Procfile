@@ -1,1 +1,1 @@
-web: node nodeServer/index.js
+web: npm run watch
