@@ -1,1 +1,1 @@
-web: index.html && cd nodeServer && node index.js
+web: node nodeServer/index.js
