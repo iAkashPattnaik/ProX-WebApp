@@ -1,1 +1,1 @@
-web: npm run watch
+web: html index.html
