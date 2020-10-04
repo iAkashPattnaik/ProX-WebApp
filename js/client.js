@@ -1,5 +1,4 @@
-const PORT = process.env.PORT || 8000;
-const socket = io(`https://prox-webapp.herokuapp.com`);
+const socket = io('http://localhost:8000');
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
