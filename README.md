@@ -24,8 +24,6 @@ start index.html
 >> We are Under The GNU Public License V3.0
 
 ## Example
-<video>
-  <source src="imgs/ice_video_20201004-150709.mp4" type="video/mp4">
-</video>
+![Click Here To See The Example](imgs/ice_video_20201004-150709.mp4)
 
 
