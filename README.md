@@ -20,6 +20,10 @@ Now Open Up another terminal (cmd) and enter ->
 start index.html
 ```
 
+## Developers
+**For Developers, Try This In The Terminal `npm -g i nodemon --save-dev`,
+Then --> `nodemon index.js`, It Will Work Better...**
+
 ## License
 >> We are Under The GNU Public License V3.0
 
