@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
 .logo{
     display: block;
     margin: auto;
@@ -65,40 +70,44 @@
     text-align: center;
     overflow: hidden;
     animation: source_animation 20s;
+    color: orange ;
+
 }
 
 
 h1{
-    cursor: wait;
+    cursor: grab;
     color: crimson;
     display: block;
     margin: auto;
     margin-top: 12px;
     font-size: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Chelsea Market', cursive;
     text-align: center;
     overflow: hidden;
     white-space: nowrap;
     animation: type_animation 3s steps(22);
 }
 
+
 h2{
-    cursor: no-drop;
+    cursor: grab;
     display: block;
     margin: auto;
     margin-top: 12px;
     font-size: 20px;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Grandstander', cursive;
     text-align: center;
     overflow: hidden;
     white-space: nowrap;
     animation: type_animation_2 7s steps(37);
+    color: #d2e603;
 }
 
 .container{
     max-width: 1000px;
-    border: 5px solid rgb(0, 29, 255);
+    border: 5px solid #959595;
     border-radius: 20px;
     animation-name: eg;
     animation-duration: 10s;
@@ -107,11 +116,12 @@ h2{
     padding: 33px;
     overflow-y: auto;
     margin-bottom: 23px;
-    background-color: darkturquoise;
+    background-color: #353941;
 }
 
 body{
-    background-image: linear-gradient(rgb(88, 255, 250),rgb(179, 255, 0));
+  background-color: #26282b;
+
 }
 
 .message{
@@ -121,6 +131,8 @@ body{
     width: 24%;
     border: 2px solid black;
     border-radius: 20px;
+    font-family: 'Amaranth', sans-serif;
+
 }
 
 .left {
@@ -136,18 +148,23 @@ body{
 }
 
 .middle{
-    cursor: crosshair;
-    border: 3px solid rgb(245, 0, 0);
-    height: 21px;
+    cursor: pointer;
+    border: 3px solid #666;
+    border-radius: 15px;
+    height: 30px;
     width: 270px;
     display: block;
     margin: auto;
     text-align: center;
     clear: both;
-    background-color: chocolate;
     color: whitesmoke;
-    border-radius: 0px;
+    padding-top: 8px;
+    font-family: 'Amaranth', sans-serif;
+    background-color: #29539b;
+  background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
 }
+
+
 
 #send-container{
     text-align: center;
@@ -159,21 +176,24 @@ body{
 
 #messageInp {
     width: 93%;
-    border: 5px solid black;
-    border-radius: 6px;
-    height: 34px;
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 37px;
     overflow-y: scroll;
-    background-color: teal;
+    background-color: #646464;
     color: white;
 }
 
 .btn{
-    cursor: crosshair;
-    border: 2px solid black;
-    border-radius: 6px;
+    cursor: pointer;
     border: 3px solid black;
-    height: 34px;
+    border-radius: 20px;
+    height: 45px;
+    width: 45px;
     color: white;
-    background-color: darkblue;
+    margin-left: 5px;
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
 }
 
+/* @Avishkarpatil */
